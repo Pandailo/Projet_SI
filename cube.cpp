@@ -40,6 +40,7 @@ void mouse(int bouton,int etat,int x,int y);
 void mousemotion(int x,int y);
 void Tete();
 void Corps();
+
 int main(int argc,char **argv)
 {
   /* initialisation de glut et creation
@@ -144,6 +145,7 @@ void reshape(int x,int y)
   else 
     glViewport((x-y)/2,0,y,y);
 }
+
 //Dessin Tête robot
 void Tete()
 {
